@@ -4,7 +4,7 @@ on: push
 
 jobs:
     ascii_job:
-        runs-on: ubuntu-18.04
+        runs-on: ubuntu-latest
         steps:
             - name: chekout repo
               uses: actions/checkout@v5
@@ -24,4 +24,4 @@ jobs:
             - name: checkout repo file
               run: ls -ltra
 
-              
+
